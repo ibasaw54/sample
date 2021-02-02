@@ -15,7 +15,7 @@ class Routine(models.Model) :
     start_date = models.DateField()
     end_date = models.DateField()
     weekday = models.CharField(max_length=40, default="Mon", blank=True, null=False)
-    done = models.BooleanField(default=False)
+    done = models.BooleanField(default=False) 
     completed = models.BooleanField(default=False)
 
 class Workout(models.Model) :
